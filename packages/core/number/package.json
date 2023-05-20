@@ -2,17 +2,5 @@
   "name": "@solid-radix/number",
   "version": "0.1.0",
   "license": "MIT",
-  "source": "./src/index.ts",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "sideEffects": false,
-  "scripts": {
-    "clean": "rm -rf dist",
-    "version": "yarn version"
-  }
+  "main": "./src/index.ts"
 }
