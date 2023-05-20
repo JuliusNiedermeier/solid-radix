@@ -1,0 +1,27 @@
+{
+  "name": "solid-radix",
+  "version": "1.0.0",
+  "description": "SolidJS port of Radix UI",
+  "author": "Julius Niedermeier",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "7.0.12",
+    "@storybook/addon-interactions": "7.0.12",
+    "@storybook/addon-links": "7.0.12",
+    "@storybook/blocks": "7.0.12",
+    "@storybook/testing-library": "0.0.14-next.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "solid-js": "^1.6.10",
+    "storybook": "7.0.12",
+    "storybook-solidjs": "1.0.0-beta.2",
+    "storybook-solidjs-vite": "1.0.0-beta.2",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  }
+}
