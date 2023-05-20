@@ -1,36 +1,41 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@storybook/addon-essentials': 7.0.12
-  '@storybook/addon-interactions': 7.0.12
-  '@storybook/addon-links': 7.0.12
-  '@storybook/blocks': 7.0.12
-  '@storybook/testing-library': 0.0.14-next.2
-  react: 18.2.0
-  react-dom: 18.2.0
-  solid-js: ^1.6.10
-  storybook: 7.0.12
-  storybook-solidjs: 1.0.0-beta.2
-  storybook-solidjs-vite: 1.0.0-beta.2
-  typescript: ^4.9.5
-  vite: ^4.1.1
-  vite-plugin-solid: ^2.5.0
+importers:
 
-devDependencies:
-  '@storybook/addon-essentials': 7.0.12_biqbaboplfbrettd7655fr4n2y
-  '@storybook/addon-interactions': 7.0.12_biqbaboplfbrettd7655fr4n2y
-  '@storybook/addon-links': 7.0.12_biqbaboplfbrettd7655fr4n2y
-  '@storybook/blocks': 7.0.12_biqbaboplfbrettd7655fr4n2y
-  '@storybook/testing-library': 0.0.14-next.2
-  react: 18.2.0
-  react-dom: 18.2.0_react@18.2.0
-  solid-js: 1.7.5
-  storybook: 7.0.12
-  storybook-solidjs: 1.0.0-beta.2_solid-js@1.7.5
-  storybook-solidjs-vite: 1.0.0-beta.2_lo6b5yqmmu2fhsgcnyzk46tq5i
-  typescript: 4.9.5
-  vite: 4.3.8
-  vite-plugin-solid: 2.7.0_solid-js@1.7.5+vite@4.3.8
+  .:
+    specifiers:
+      '@storybook/addon-essentials': 7.0.12
+      '@storybook/addon-interactions': 7.0.12
+      '@storybook/addon-links': 7.0.12
+      '@storybook/blocks': 7.0.12
+      '@storybook/testing-library': 0.0.14-next.2
+      react: 18.2.0
+      react-dom: 18.2.0
+      solid-js: ^1.6.10
+      storybook: 7.0.12
+      storybook-solidjs: 1.0.0-beta.2
+      storybook-solidjs-vite: 1.0.0-beta.2
+      typescript: ^4.9.5
+      vite: ^4.1.1
+      vite-plugin-solid: ^2.5.0
+    devDependencies:
+      '@storybook/addon-essentials': 7.0.12_biqbaboplfbrettd7655fr4n2y
+      '@storybook/addon-interactions': 7.0.12_biqbaboplfbrettd7655fr4n2y
+      '@storybook/addon-links': 7.0.12_biqbaboplfbrettd7655fr4n2y
+      '@storybook/blocks': 7.0.12_biqbaboplfbrettd7655fr4n2y
+      '@storybook/testing-library': 0.0.14-next.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      solid-js: 1.7.5
+      storybook: 7.0.12
+      storybook-solidjs: 1.0.0-beta.2_solid-js@1.7.5
+      storybook-solidjs-vite: 1.0.0-beta.2_lo6b5yqmmu2fhsgcnyzk46tq5i
+      typescript: 4.9.5
+      vite: 4.3.8
+      vite-plugin-solid: 2.7.0_solid-js@1.7.5+vite@4.3.8
+
+  packages/core/number:
+    specifiers: {}
 
 packages:
 
