@@ -1,0 +1,9 @@
+{
+  "name": "@solid-radix/primitive",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "solid-js": "^1.6.10"
+  }
+}
