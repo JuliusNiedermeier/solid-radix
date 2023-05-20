@@ -44,7 +44,14 @@ const Primitive = NODES.reduce((primitive, node) => {
     const intrinsicProps = splitProps(props, ["children", "ref"])[1];
 
     return (
-      <Dynamic component={node} ref={props.ref} {...intrinsicProps}>
+      <Dynamic
+        component={node}
+        ref={props.ref}
+        {
+          // Temporary fix for type error on Dynamic component
+          ...(intrinsicProps as any)
+        }
+      >
         {props.children}
       </Dynamic>
     );
