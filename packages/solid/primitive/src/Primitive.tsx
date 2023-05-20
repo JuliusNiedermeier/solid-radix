@@ -1,5 +1,5 @@
 import { ParentComponent, Ref, onMount, JSX } from "solid-js";
-import { Dynamic, DynamicProps } from "solid-js/web";
+import { Dynamic } from "solid-js/web";
 
 type PrimitiveComponent<E extends keyof JSX.IntrinsicElements> =
   ParentComponent<
