@@ -1,44 +1,36 @@
 lockfileVersion: 5.4
 
-importers:
+specifiers:
+  '@storybook/addon-essentials': 7.0.12
+  '@storybook/addon-interactions': 7.0.12
+  '@storybook/addon-links': 7.0.12
+  '@storybook/blocks': 7.0.12
+  '@storybook/testing-library': 0.0.14-next.2
+  react: 18.2.0
+  react-dom: 18.2.0
+  solid-js: ^1.6.10
+  storybook: 7.0.12
+  storybook-solidjs: 1.0.0-beta.2
+  storybook-solidjs-vite: 1.0.0-beta.2
+  typescript: ^4.9.5
+  vite: ^4.1.1
+  vite-plugin-solid: ^2.5.0
 
-  .:
-    specifiers:
-      '@storybook/addon-essentials': 7.0.12
-      '@storybook/addon-interactions': 7.0.12
-      '@storybook/addon-links': 7.0.12
-      '@storybook/blocks': 7.0.12
-      '@storybook/testing-library': 0.0.14-next.2
-      react: 18.2.0
-      react-dom: 18.2.0
-      solid-js: ^1.6.10
-      storybook: 7.0.12
-      storybook-solidjs: 1.0.0-beta.2
-      storybook-solidjs-vite: 1.0.0-beta.2
-      typescript: ^4.9.5
-      vite: ^4.1.1
-      vite-plugin-solid: ^2.5.0
-    devDependencies:
-      '@storybook/addon-essentials': 7.0.12_biqbaboplfbrettd7655fr4n2y
-      '@storybook/addon-interactions': 7.0.12_biqbaboplfbrettd7655fr4n2y
-      '@storybook/addon-links': 7.0.12_biqbaboplfbrettd7655fr4n2y
-      '@storybook/blocks': 7.0.12_biqbaboplfbrettd7655fr4n2y
-      '@storybook/testing-library': 0.0.14-next.2
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      solid-js: 1.7.5
-      storybook: 7.0.12
-      storybook-solidjs: 1.0.0-beta.2_solid-js@1.7.5
-      storybook-solidjs-vite: 1.0.0-beta.2_lo6b5yqmmu2fhsgcnyzk46tq5i
-      typescript: 4.9.5
-      vite: 4.3.8
-      vite-plugin-solid: 2.7.0_solid-js@1.7.5+vite@4.3.8
-
-  packages/solid/button:
-    specifiers:
-      solid-js: ^1.6.10
-    dependencies:
-      solid-js: 1.7.5
+devDependencies:
+  '@storybook/addon-essentials': 7.0.12_biqbaboplfbrettd7655fr4n2y
+  '@storybook/addon-interactions': 7.0.12_biqbaboplfbrettd7655fr4n2y
+  '@storybook/addon-links': 7.0.12_biqbaboplfbrettd7655fr4n2y
+  '@storybook/blocks': 7.0.12_biqbaboplfbrettd7655fr4n2y
+  '@storybook/testing-library': 0.0.14-next.2
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
+  solid-js: 1.7.5
+  storybook: 7.0.12
+  storybook-solidjs: 1.0.0-beta.2_solid-js@1.7.5
+  storybook-solidjs-vite: 1.0.0-beta.2_lo6b5yqmmu2fhsgcnyzk46tq5i
+  typescript: 4.9.5
+  vite: 4.3.8
+  vite-plugin-solid: 2.7.0_solid-js@1.7.5+vite@4.3.8
 
 packages:
 
@@ -3376,6 +3368,7 @@ packages:
 
   /csstype/3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
+    dev: true
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
@@ -5700,6 +5693,7 @@ packages:
   /seroval/0.5.1:
     resolution: {integrity: sha512-ZfhQVB59hmIauJG5Ydynupy8KHyr5imGNtdDhbZG68Ufh1Ynkv9KOYOAABf71oVbQxJ8VkWnMHAjEHE7fWkH5g==}
     engines: {node: '>=10'}
+    dev: true
 
   /serve-favicon/2.5.0:
     resolution: {integrity: sha512-FMW2RvqNr03x+C0WxTyu6sOv21oOjkq5j8tjquWccwa6ScNyGFOGJVpuS1NmTVGBAHS07xnSKotgf2ehQmf9iA==}
@@ -5794,6 +5788,7 @@ packages:
     dependencies:
       csstype: 3.1.2
       seroval: 0.5.1
+    dev: true
 
   /solid-refresh/0.5.2_solid-js@1.7.5:
     resolution: {integrity: sha512-I69HmFj0LsGRJ3n8CEMVjyQFgVtuM2bSjznu2hCnsY+i5oOxh8ioWj00nnHBv0UYD3WpE/Sq4Q3TNw2IKmKN7A==}
