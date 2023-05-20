@@ -1,4 +1,4 @@
-import { ParentComponent, Ref, onMount, JSX } from "solid-js";
+import { ParentComponent, Ref, onMount, JSX, splitProps } from "solid-js";
 import { Dynamic } from "solid-js/web";
 
 type PrimitiveComponent<E extends keyof JSX.IntrinsicElements> =
@@ -41,8 +41,10 @@ const Primitive = NODES.reduce((primitive, node) => {
   const Node: PrimitiveComponent<typeof node> = (props) => {
     onMount(() => ((window as any)[Symbol.for("solid-radix")] = true));
 
+    const intrinsicProps = splitProps(props, ["children", "ref"])[1];
+
     return (
-      <Dynamic component={node} ref={props.ref}>
+      <Dynamic component={node} ref={props.ref} {...intrinsicProps}>
         {props.children}
       </Dynamic>
     );
