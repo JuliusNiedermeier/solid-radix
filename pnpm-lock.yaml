@@ -37,6 +37,12 @@ importers:
   packages/core/number:
     specifiers: {}
 
+  packages/solid/slot:
+    specifiers:
+      '@solid-radix/compose-refs': workspace:^0.1.0
+    dependencies:
+      '@solid-radix/compose-refs': link:../compose-refs
+
 packages:
 
   /@ampproject/remapping/2.2.1:

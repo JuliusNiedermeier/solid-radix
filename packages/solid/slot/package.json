@@ -1,0 +1,9 @@
+{
+  "name": "@solid-radix/slot",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "@solid-radix/compose-refs": "workspace:^0.1.0"
+  }
+}
